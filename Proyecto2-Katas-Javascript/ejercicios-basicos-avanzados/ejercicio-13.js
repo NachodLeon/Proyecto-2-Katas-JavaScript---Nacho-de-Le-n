@@ -1,0 +1,27 @@
+// Este archivo contiene la lógica de ejercicio-13. El código organiza las operaciones y resuelve las tareas correspondientes a este ejercicio.
+
+const names = [
+ 'Peter',
+ 'Steve',
+ 'Tony',
+ 'Natasha',
+ 'Clint',
+ 'Logan',
+ 'Xabier',
+ 'Bruce',
+ 'Peggy',
+ 'Jessica',
+ 'Marc'
+];
+
+function nameFinder(nameList, name) {
+  const index = nameList.indexOf(name);
+
+  if (index !== -1) {
+    return { found: true, position: index };
+  } else {
+    return false;
+  }
+}
+
+console.log(nameFinder(names, "Tony"));
