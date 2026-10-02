@@ -1,5 +1,4 @@
-// Este archivo contiene la lógica de ejercicio-37. El código organiza las operaciones y resuelve las tareas correspondientes a este ejercicio.
-
+// En este ejercicio se recorren las películas para recopilar todas sus categorías. Cada categoría se añade únicamente si todavía no está incluida en el array.
 const movies = [
   {
     title: "Bracula: Condemor II",
