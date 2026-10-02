@@ -1,4 +1,4 @@
-// Este archivo contiene la lógica de ejercicio-20. El código organiza las operaciones y resuelve las tareas correspondientes a este ejercicio.
+// En este ejercicio se filtran los juguetes que han tenido más de 15 ventas y se almacenan en un nuevo array para identificar los más populares.
 
 const popularToys = [];
 
